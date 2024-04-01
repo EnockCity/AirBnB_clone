@@ -1,20 +1,14 @@
-*{
-    box-sizing: border-box;
+body {
+	margin: 0;
     padding: 0;
-    margin: 0;
-    font-family: Circular, "Helvetica Neue", Helvetica,Arial, sans-serif;
-}
-
-body{
-    height: 100vh;
-    width: 100%;
     color: #484848;
     font-size: 14px;
-    display: flex;
-    flex-direction: column;
+    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.container{
+
+.container {
+    margin: auto;
     max-width: 1000px;
-    width: 1000px;
-    margin: 30px auto 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
